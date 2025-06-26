@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/gifts.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gifts</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-inner">
+          <a href="index.html" class="logo">the gifts</a>
+          <div class="nav-wrapper">
+            <nav class="nav" id="nav">
+              <ul class="nav-list">
+                <li class="nav-list__item">
+                  <a class="nav-list__link _active" href="#">Gifts</a>
+                </li>
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="index.html#about">About</a>
+                </li>
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="index.html#best">Best</a>
+                </li>
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="#contacts">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="nav-burger" id="burgerButton">
+              <div class="nav-burger-icon"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="container" id="best">
+        <div class="section-column">
+          <h1>Achieve health, harmony, and inner strength</h1>
+        </div>
+
+        <div class="tabs">
+          <ul class="tabs-list">
+            <li class="tabs-list__item _active">All</li>
+            <li class="tabs-list__item" data-category="work">for work</li>
+            <li class="tabs-list__item" data-category="health">for health</li>
+            <li class="tabs-list__item" data-category="harmony">for harmony</li>
+          </ul>
+        </div>
+
+        <div class="catalog" id="catalog"></div>
+      </section>
+      <div class="scroll-page">
+        <button class="button button-arrow _top" id="scrollToTop"></button>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container container" id="contacts">
+        <ul class="footer-list">
+          <li class="footer-list__item">
+            <a href="tel:+375291112233" class="footer-link">
+              <img
+                src="./assets/santa-claus.svg"
+                alt="santa-claus"
+                class="footer-list__image"
+              />
+              <div class="footer-title">+375 (29) 111-22-33</div>
+              <div class="footer-description">Call Us</div>
+            </a>
+          </li>
+          <li class="footer-list__item">
+            <a
+              href="https://maps.app.goo.gl/iXwUDTaUqnmye4KD6"
+              target="_blank"
+              class="footer-link"
+            >
+              <img
+                src="./assets/christmas-tree.svg"
+                alt="christmas-tree"
+                class="footer-list__image"
+              />
+              <div class="footer-title">Magic forest</div>
+              <div class="footer-description">meet us</div>
+            </a>
+          </li>
+          <li class="footer-list__item">
+            <a href="mailto:gifts@magic.com" class="footer-link">
+              <img
+                src="./assets/snake.svg"
+                alt="snake"
+                class="footer-list__image"
+              />
+              <div class="footer-title">gifts@magic.com</div>
+              <div class="footer-description">write us</div>
+            </a>
+          </li>
+        </ul>
+
+        <div class="footer-info">
+          <ul class="social-media-list">
+            <li class="social-media-list__item">
+              <a href="#" class="social-media__link">
+                <svg
+                  width="21"
+                  height="17"
+                  viewBox="0 0 21 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 1L1 8.5L8 9.5M20 1L17.5 16L8 9.5M20 1L8 9.5M8 9.5V15L11.2488 11.7229"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-list__item">
+              <a href="#" class="social-media__link">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 10H22C20.6739 10 19.4021 10.5268 18.4645 11.4645C17.5268 12.4021 17 13.6739 17 15V18H14V22H17V30H21V22H24L25 18H21V15C21 14.7348 21.1054 14.4804 21.2929 14.2929C21.4804 14.1054 21.7348 14 22 14H25V10Z"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-list__item">
+              <a href="#" class="social-media__link">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 24C22.2091 24 24 22.2091 24 20C24 17.7909 22.2091 16 20 16C17.7909 16 16 17.7909 16 20C16 22.2091 17.7909 24 20 24Z"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M11 24V16C11 13.2386 13.2386 11 16 11H24C26.7614 11 29 13.2386 29 16V24C29 26.7614 26.7614 29 24 29H16C13.2386 29 11 26.7614 11 24Z"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M25.5 14.51L25.51 14.4989"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-list__item">
+              <a href="#" class="social-media__link">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.8198 20.7684L3.75317 3.96836C3.44664 3.57425 3.72749 3 4.22678 3H6.70655C6.8917 3 7.06649 3.08548 7.18016 3.23164L20.2468 20.0316C20.5534 20.4258 20.2725 21 19.7732 21H17.2935C17.1083 21 16.9335 20.9145 16.8198 20.7684Z"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M20 3L4 21"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="copyrights">
+            &#169; Copyright 2025, All Rights Reserved
+          </div>
+          <a class="link _dark" href="https://rs.school/" target="_blank">
+            <span class="text-calligraphy">
+              Made in Rolling Scopes School
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <dialog class="popup" id="popup">
+        <div class="popup__close-button">
+          <button class="button button-close" id="popupClose"></button>
+        </div>
+        <div class="popup-inner"></div>
+      </dialog>
+    </footer>
+    <script src="./js/burger.js"></script>
+    <script src="./js/gifts.js"></script>
+    <script src="./js/scroll-to-top.js"></script>
+  </body>
+</html>
